@@ -32,7 +32,7 @@ const Hero = () => {
         id="copy"
         className="text-black text-center text-2xl font-extrabold protest break-all"
       >
-        CA: 0x00000000000000000000000
+        CA: 0x0000000000000000000000
       </p>
       <div className="p-2">
       <IoCopySharp
