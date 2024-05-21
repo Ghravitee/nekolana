@@ -12,8 +12,8 @@ const Hero = () => {
       }, []);
   return (
     <div className='flex flex-col justify-center items-center gap-8'>
-      <h1 className='text-5xl md:text-[7rem] upercase text-black'>$Neko</h1>
-      <p className='text-black text-4xl protest text-center'>the anime cat on solana</p>
+      <h1 className='text-6xl md:text-[7rem] upercase londrina font-bold'>$Neko</h1>
+      <p className='text-black text-3xl protest text-center'>the anime cat on solana</p>
       <Image 
       src="/Nekolana-hero.PNG"
       alt='Nekolana'

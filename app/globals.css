@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.protest {
-  font-family: var(--font-protest)
+.londrina {
+  font-family: var(--font-londrina);
 }
 
 @keyframes dangle {

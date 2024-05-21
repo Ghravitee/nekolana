@@ -1,8 +1,10 @@
-import { Bungee_Shade, Protest_Revolution } from "next/font/google";
+import { Londrina_Shadow } from "next/font/google";
+import localFont from 'next/font/local';
 import "./globals.css";
 
-const bungee = Bungee_Shade({ subsets: ["latin"], weight: "400" });
-const protest = Protest_Revolution({ subsets: ["latin"], weight: "400", variable: "--font-protest" });
+const londrina = Londrina_Shadow({ subsets: ["latin"], weight: "400", variable: "--font-londrina" }, );
+// const protest = Protest_Revolution({ subsets: ["latin"], weight: "400", variable: "--font-protest" });
+export const localInter = localFont({ src: '../public/fonts/PoetsenOne-Regular.ttf' });
 
 
 
@@ -15,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${bungee.className} ${protest.variable} bg-page-background bg-cover bg-repeat overflow-y-scroll overflow-x-hidden`}
+        className={`${localInter.className} ${londrina.variable} bg-page-background bg-cover bg-repeat overflow-y-scroll overflow-x-hidden`}
       >
         {children}
       </body>
