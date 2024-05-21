@@ -4,7 +4,7 @@ import "./globals.css";
 
 const londrina = Londrina_Shadow({ subsets: ["latin"], weight: "400", variable: "--font-londrina" }, );
 // const protest = Protest_Revolution({ subsets: ["latin"], weight: "400", variable: "--font-protest" });
-export const localInter = localFont({ src: '../public/fonts/PoetsenOne-Regular.ttf' });
+const localInter = localFont({ src: '../public/fonts/PoetsenOne-Regular.ttf' });
 
 
 
