@@ -57,7 +57,7 @@ const Info = () => {
       {/* Stack 1 */}
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
-                <h1 class="text-3xl font-semibold py-2 londrina">GET A WALLET</h1>
+                <h1 class="text-4xl font-semibold py-2 londrina">GET A WALLET</h1>
                 <p class="text-2xl">Download your wallet of choice (Phantom, Solflare...)</p>
             </div>
         </div>
@@ -76,7 +76,7 @@ const Info = () => {
         </div>
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
-                <h1 class="text-3xl font-semibold py-2 londrina">GET SOME SOL</h1>
+                <h1 class="text-4xl font-semibold py-2 londrina">GET SOME SOL</h1>
                 <p class="text-2xl protest">Buy some SOL from an exchange (Binance, Bybit...)</p>
             </div>
         </div>
@@ -84,7 +84,7 @@ const Info = () => {
         {/* Stack 3 */}
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
-                <h1 class="text-3xl font-semibold py-2 londrina">GO TO RAYDIUM OR JUPITER</h1>
+                <h1 class="text-4xl font-semibold py-2 londrina">GO TO RAYDIUM OR JUPITER</h1>
                 <p class="text-2xl protest">Click BUY NOW, link your wallet to start swapping</p>
             </div>
         </div>
@@ -103,7 +103,7 @@ const Info = () => {
         </div>
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
-                <h1 class="text-3xl font-semibold py-2 londrina">SELECT AN AMOUNT</h1>
+                <h1 class="text-4xl font-semibold py-2 londrina">SELECT AN AMOUNT</h1>
                 <p class="text-2xl protest">Select the amount of $Neko you want to buy and swap!</p>
             </div>
         </div>
