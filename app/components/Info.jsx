@@ -25,7 +25,7 @@ const Info = () => {
   ];
 
   return (
-    <div className="text-[#BE4DF7]">
+    <div className="text-black">
       <h2 className="text-4xl text-center mb-6">HOW TO BUY</h2>
       <h3 className="text-3xl protest text-center mb-6">
         Follow these steps to buy $Neko and join our holders!
@@ -36,8 +36,8 @@ const Info = () => {
         <div className="relative border-l-2 border-gray-200">
           {timelineData.map((item, index) => (
             <div key={index} className="mb-10 ml-4">
-              <div className="flex justify-center items-center absolute w-8 h-8 bg-[#BE4DF7] rounded-full mt-1.5 -left-4 border-2 border-white">
-                <p className="text-xs font-semibold text-black protest">
+              <div className="flex justify-center items-center absolute w-8 h-8 bg-black rounded-full mt-1.5 -left-4 border-2 border-white">
+                <p className="text-xs font-semibold text-white protest">
                   {item.list}
                 </p>
               </div>
@@ -53,7 +53,7 @@ const Info = () => {
       </div>
 
 
-      <div class="hidden max-w-7xl mx-auto w-full md:grid grid-cols-9 px-2 text-[#BE4DF7]">
+      <div class="hidden max-w-7xl mx-auto w-full md:grid grid-cols-9 px-2 text-black">
       {/* Stack 1 */}
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
@@ -63,7 +63,7 @@ const Info = () => {
         </div>
         <div class="relative col-span-1 w-full h-full flex justify-center items-center">
             <div class="h-full w-1 bg-indigo-300"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-[#BE4DF7] z-10 text-black protest text-center">1</div>
+            <div class="absolute w-6 h-6 rounded-full bg-black z-10 text-white protest text-center">1</div>
         </div>
         <div class="col-span-4 w-full h-full"></div>
 
@@ -72,7 +72,7 @@ const Info = () => {
         <div class="col-span-4 w-full h-full"></div>
         <div class="relative col-span-1 w-full h-full flex justify-center items-center">
             <div class="h-full w-1 bg-indigo-300"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-[#BE4DF7] z-10 text-black protest text-center">2</div>
+            <div class="absolute w-6 h-6 rounded-full bg-black z-10 text-white protest text-center">2</div>
         </div>
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
@@ -90,7 +90,7 @@ const Info = () => {
         </div>
         <div class="relative col-span-1 w-full h-full flex justify-center items-center">
             <div class="h-full w-1 bg-indigo-300"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-[#BE4DF7] z-10 text-black protest text-center">3</div>
+            <div class="absolute w-6 h-6 rounded-full bg-black z-10 text-white protest text-center">3</div>
         </div>
         <div class="col-span-4 w-full h-full"></div>
 
@@ -99,7 +99,7 @@ const Info = () => {
      <div class="col-span-4 w-full h-full"></div>
         <div class="relative col-span-1 w-full h-full flex justify-center items-center">
             <div class="h-full w-1 bg-indigo-300"></div>
-            <div class="absolute w-6 h-6 rounded-full bg-[#BE4DF7] z-10 text-black protest text-center">4</div>
+            <div class="absolute w-6 h-6 rounded-full bg-black z-10 text-white protest text-center">4</div>
         </div>
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">

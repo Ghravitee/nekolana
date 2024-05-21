@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${bungee.className} ${protest.variable} bg-[#000000] bg-cover bg-repeat overflow-y-scroll overflow-x-hidden`}
+        className={`${bungee.className} ${protest.variable} bg-page-background bg-cover bg-repeat overflow-y-scroll overflow-x-hidden`}
       >
         {children}
       </body>

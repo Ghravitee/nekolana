@@ -13,15 +13,15 @@ const Navbar = () => {
             width={70}
             height={70}
             alt='Nekolana'
-            className='rounded-full border-2 border-[#BE4DF7]'
+            className='rounded-full border-2 border-black'
             />
         </Link>
         <div className='flex gap-8'>
         <Link href=" https://t.me/nekolanasol" className="flex justify-center items-center hover:">
-          <BiLogoTelegram className='text-4xl md:text-6xl text-[#BE4DF7]'/>
+          <BiLogoTelegram className='text-4xl md:text-6xl text-black'/>
         </Link>
         <Link href="https://x.com/nekolana_sol" className="flex justify-center items-center">
-          <RiTwitterXFill className='text-4xl md:text-6xl text-[#BE4DF7]'/>
+          <RiTwitterXFill className='text-4xl md:text-6xl text-black'/>
         </Link>
         </div>
     </div>
