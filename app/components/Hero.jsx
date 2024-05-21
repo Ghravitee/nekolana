@@ -24,7 +24,7 @@ const Hero = () => {
 
     
     <Link href="https://jup.ag/swap" className="dangle bg-[#BE4DF7] text-black text-3xl py-2 px-4 md:py-4 md:px-8 rounded-lg protest">
-        Click Me
+        BUY NOW
       </Link>
 
       <div className="flex">
