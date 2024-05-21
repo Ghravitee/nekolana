@@ -10,10 +10,10 @@ export default function Home() {
      <div className="px-10 py-6" >
         <Navbar />
       </div>
-      <div className="min-h-screen px-10 py-6 lg:pt-0 lg:pb-12 pb-16 lg:px-28 md:px-10" >
+      <div className="min-h-screen px-10 py-6" >
         <Hero />
       </div>
-      <div className="px-4 pt-0 lg:pt-0 lg:pb-12 pb-16 lg:px-28 md:px-10" >
+      <div className="px-4 py-6" >
         <Info />
       </div>
       <div className="px-4" >

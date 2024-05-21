@@ -17,11 +17,11 @@ const Navbar = () => {
             />
         </Link>
         <div className='flex gap-8'>
-        <Link href=" https://t.me/nekolanasol" className="flex justify-center items-center">
-          <BiLogoTelegram className='text-4xl text-[#BE4DF7]'/>
+        <Link href=" https://t.me/nekolanasol" className="flex justify-center items-center hover:">
+          <BiLogoTelegram className='text-4xl md:text-6xl text-[#BE4DF7]'/>
         </Link>
         <Link href="https://x.com/nekolana_sol" className="flex justify-center items-center">
-          <RiTwitterXFill className='text-4xl text-[#BE4DF7]'/>
+          <RiTwitterXFill className='text-4xl md:text-6xl text-[#BE4DF7]'/>
         </Link>
         </div>
     </div>
