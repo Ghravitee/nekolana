@@ -42,7 +42,7 @@ const Info = () => {
                 </p>
               </div>
               <div className="ml-6">
-                <h3 className="text-2xl font-semibold londrina">{item.title}</h3>
+                <h3 className="text-3xl font-semibold londrina">{item.title}</h3>
                 <p className="mb-4 text-xl font-normal">
                   {item.description}
                 </p>
@@ -85,7 +85,7 @@ const Info = () => {
         <div class="col-span-4 w-full h-full ">
             <div class="w-full h-full p-2 md:pl-4">
                 <h1 class="text-4xl font-semibold py-2 londrina">GO TO RAYDIUM OR JUPITER</h1>
-                <p class="text-2xl protest">Click BUY NOW, link your wallet to start swapping</p>
+                <p class="text-3xl protest">Click BUY NOW, link your wallet to start swapping</p>
             </div>
         </div>
         <div class="relative col-span-1 w-full h-full flex justify-center items-center">
