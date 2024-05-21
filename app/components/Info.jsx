@@ -93,6 +93,21 @@ const Info = () => {
             <div class="absolute w-6 h-6 rounded-full bg-[#BE4DF7] z-10 text-black protest text-center">3</div>
         </div>
         <div class="col-span-4 w-full h-full"></div>
+
+
+     {/* Stack 4 */}
+     <div class="col-span-4 w-full h-full"></div>
+        <div class="relative col-span-1 w-full h-full flex justify-center items-center">
+            <div class="h-full w-1 bg-indigo-300"></div>
+            <div class="absolute w-6 h-6 rounded-full bg-[#BE4DF7] z-10 text-black protest text-center">4</div>
+        </div>
+        <div class="col-span-4 w-full h-full ">
+            <div class="w-full h-full p-2 md:pl-4">
+                <h1 class="text-3xl font-medium py-2">SELECT AN AMOUNT</h1>
+                <p class="text-2xl protest">Select the amount of $Neko you want to buy and swap!</p>
+            </div>
+        </div>
+       
     </div>
 
     </div>
