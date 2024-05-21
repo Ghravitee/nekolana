@@ -39,7 +39,7 @@ const Hero = () => {
       data-clipboard-target="#copy"	
       className="copy"
       size={25}
-      color='#BE4DF7'
+      color='#FFFFFF'
       />
         
         
