@@ -23,7 +23,7 @@ const Hero = () => {
       />
 
     
-    <Link href="https://jup.ag/swap" className="dangle bg-black text-white text-3xl py-2 px-4 md:py-4 md:px-8 rounded-lg protest">
+    <Link href="https://jup.ag/swap" className="dangle bg-black text-white text-2xl py-2 px-4 md:py-4 md:px-8 rounded-lg protest">
         BUY NOW
       </Link>
 
